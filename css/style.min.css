@@ -108,6 +108,12 @@ a.link:hover {
   opacity: 1;
 }
 
+.visible {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
 .cd-container {
   padding: 0 20px;
   -ms-flex-item-align: center;

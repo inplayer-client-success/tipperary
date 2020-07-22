@@ -86,7 +86,7 @@ $(function () {
       $('#menu').toggleClass('slideInDown slideOutUp');
       $('body').toggleClass('overflow');
     })
-  })
+  });
 
 
 })
