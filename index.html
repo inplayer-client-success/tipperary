@@ -76,10 +76,10 @@
   <div id="header">
   </div>
 
-  <!-- <div id="asset">
+  <div id="asset">
     <div class="inplayer-paywall" id="inplayer-109263">
     </div>
-  </div> -->
+  </div>
 
   <div class="package-container" id="watch" >
     <h2>Watch Matches</h2>
@@ -253,7 +253,10 @@
 
 
 <script type="text/javascript">
-  var paywall = new InplayerPaywall('62efdf87-2816-44bb-bf96-f93245961506', [{ id: 109263 }]);
+  var paywall = new InplayerPaywall('62efdf87-2816-44bb-bf96-f93245961506', [{ id: 109263,options: {
+          noPreview: true,
+          noInject: true,
+        }, }]);
 </script>
 
 <script src="js/paywall.js"></script>
