@@ -1,0 +1,17 @@
+:root{
+  --primary: #22386e;
+  --secondary: #febb19;
+  --dark: #142348;
+
+  --font1: "Roboto", sans-serif;
+  --font2: "Roboto Condensed", sans-serif;
+
+}
+
+@mixin transition {
+  -ms-transition:  .2s all ease-out;
+  -moz-transition:  .2s all ease-out;
+  -webkit-transition:  .2s all ease-out;
+  transition:  .2s all ease-out;
+
+}

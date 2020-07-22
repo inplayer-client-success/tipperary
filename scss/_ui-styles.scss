@@ -1,0 +1,105 @@
+.hide{
+  display: none !important;
+}
+.flex{
+  display: flex!important;
+}
+
+h1, h2, h3, h4{
+  font-family: var(--font1);
+}
+
+.overflow{
+  overflow: hidden;
+}
+.container-title{
+  // border-bottom: 5px solid var(--primary);
+  width: fit-content;
+  width: -moz-fit-content;
+  margin: 20px auto;
+  padding-bottom: 10px;
+}
+
+.button{
+  font-family: var(--font1);
+  // border: 1px solid;
+  border: none;
+  border-radius: 2px;
+  font-size: inherit;
+  padding: 15px 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  cursor: pointer;
+
+@include transition ;
+
+  &:hover, &:focus{
+      color: var(--secondary);
+      background-color: none;
+      outline: none;
+  }
+
+} // button
+
+
+.ctaBtn{
+
+  @extend .button;
+
+  background-color: var(--primary) !important;
+  color: #fff;
+
+  &:hover, &:focus{
+      background-color: var(--secondary);
+      outline: none;
+  }
+}
+
+
+
+
+.divider{
+  display: block;
+  height: 3px;
+  width: 200px;
+  margin: 0 auto;
+}
+
+a.link{
+  color: var(--secondary);
+  font-style: italic;
+  &:hover{
+    color: var(--secondary)-light;
+  }
+}
+//back to top button
+.back-to-top {
+  background: none;
+  display: none;
+  margin: 0;
+  position: fixed;
+  bottom: 150px;
+  right: 23px;
+  width: 35px;
+  height: 35px;
+  z-index: 100;
+  text-decoration: none;
+  color: #fff;
+  opacity: .5;
+   background-color: rgba(9, 9, 9, 0.6);
+   border-radius: 60px;
+  
+  transition: .2s all ease-out;
+  
+    i{
+        font-size: 38px;
+        position: relative;
+        left: -1.5px;
+        top: -1.5px;
+    }
+  
+    &:hover{
+      opacity: 1;
+    }
+  }
