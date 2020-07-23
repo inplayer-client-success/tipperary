@@ -524,6 +524,10 @@ a.link:hover {
   border-top: none;
 }
 
+#faq .faq-info ul li .inner .question img {
+  width: 100%;
+}
+
 @media (max-width: 950px) {
   #faq .faq-info {
     -webkit-box-orient: vertical;
