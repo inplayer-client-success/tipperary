@@ -192,16 +192,14 @@ body{
     }
   }
 
-// .img-holder{
-//   width: 100%;
-//   max-width: 600px;
-//   margin: 0 auto;
-//   padding: 50px 20px;
-//
-//   img{
-//     width: 100%;
-//   }
-// }
 
 } //body
-/*# sourceMappingURL=style.scss.map */
+.inplayer-paywall {
+  color: #111 !important;
+  .headline a, .languages, .labelholder label, .selectholder label, .labelholder i   {
+    color: #111 !important;
+  }
+  .labelholder input {
+    border-bottom: 1px solid #111 !important;
+  }
+}
