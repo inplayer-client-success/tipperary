@@ -1,11 +1,13 @@
 #header{
   position: relative;
-  background-image: url('../img/header.jpg');
+  background-image: url('../img/header-2.jpg');
   background-size: cover;
   background-position: center;
   height: 100%;
   min-height: 80vh;
   width: 100%;
+  display: flex;
+  align-items: center;
 
   &.header-item{
     background-image: url("../img/header-item.jpg");
@@ -27,6 +29,9 @@
       width: 100%;
       max-width: 700px;
       margin: 0 auto 30px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
       align-self: center;
       @include transition;
 
@@ -34,12 +39,27 @@
         font-weight: 800;
         margin: 0;
         margin-bottom: 30px;
-        font-size: 3.5em;
+        font-size: 2.5em;
       }
       p{
         font-size: 20px;
         margin-bottom: 40px;
         text-shadow: 1px 1px 10px #000;
+      }
+    }
+
+    #season-pass{
+      position: relative;
+
+      &::after{
+        position: absolute;
+        content: "*BAR-CODE/PASSES HOLDER PURCHASE HERE";
+        bottom: -45px;
+        color: #fff;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+
       }
     }
 
