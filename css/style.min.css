@@ -1009,4 +1009,8 @@ body #nav-wrapper .hamburger {
 .inplayer-paywall .labelholder input {
   border-bottom: 1px solid #111 !important;
 }
+
+.inplayer-paywall .languages .expand {
+  background: #111;
+}
 /*# sourceMappingURL=style.min.css.map */
