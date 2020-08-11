@@ -2,8 +2,8 @@
   padding: 50px 30px;
   text-align: center;
 
-  h2{
-    margin-bottom: 60px;
+  h3{
+    margin: 50px 0 0;
   }
 
   .package{
@@ -16,18 +16,16 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.164);
+        padding: 30px 0;
 
         .package-item {
           position: relative;
           width: 100%;
-          max-width: 400px;
-          min-width: 253px;
+          max-width: 250px;
           padding: 4px;
           margin-bottom: 20px;
           transition: all linear .15s;
-          -ms-transition: all linear .15s;
-          -moz-transition: all linear .15s;
-          -webkit-transition: all linear .15s;
 
           .content {
             // height: 300px;
@@ -82,7 +80,7 @@
           .item-label {
             font-size: 17px;
             line-height: 23px;
-            text-align: center;
+            text-align: left;
             z-index: 11;
             align-items: center;
 
@@ -90,6 +88,11 @@
               padding: 10px;
               font-family: var(--font1);
               font-weight: 600;
+            }
+            .assetDesc{
+              p{
+                margin: 8px 0;
+              }
             }
 
             @media screen and (max-width:812px) {
