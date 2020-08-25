@@ -11,6 +11,13 @@
 
   &.header-item{
     background-image: url("../img/header-item.jpg");
+
+    .header-content{
+      width: 100%;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 10px;
+    }
   }
 
   .header-content{
@@ -19,7 +26,6 @@
     text-align: center;
     padding: 20px 50px;
     padding-bottom: 30px;
-    position: relative;
 
     .text{
       color: #fff;

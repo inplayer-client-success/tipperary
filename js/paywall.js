@@ -2,7 +2,9 @@
 
 var config = {
   packages: [
-    "109267"
+    "109267",
+    "111329",
+    "114686"
   ],
   item_id: getParameterByName('id'),
   service_url: "https://services.inplayer.com"
