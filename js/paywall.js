@@ -33,7 +33,7 @@ paywall.on('logout', function () {
 $('#weekend-pass').click(() => {
   paywall.showPaywall({
     asset: {
-      assetId: 109263,
+      assetId: 117098,
       preselectedFeeId: 132885
     }
   });
