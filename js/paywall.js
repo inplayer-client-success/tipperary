@@ -5,7 +5,8 @@ var config = {
     "109267",
     "111329",
     "114686",
-    "117098"
+    "117098",
+    "118587"
   ],
   item_id: getParameterByName('id'),
   service_url: "https://services.inplayer.com"
@@ -27,8 +28,8 @@ paywall.on('logout', function () {
 $('#weekend-pass').click(() => {
   paywall.showPaywall({
     asset: {
-      assetId: 117097,
-      preselectedFeeId: 137144
+      assetId: 118586,
+      preselectedFeeId: 132884
     }
   });
 })
