@@ -29,7 +29,7 @@ $('#weekend-pass').click(() => {
   paywall.showPaywall({
     asset: {
       assetId: 118586,
-      preselectedFeeId: 132884
+      preselectedFeeId: 137870
     }
   });
 })
