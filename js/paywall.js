@@ -25,15 +25,23 @@ paywall.on('logout', function () {
   location.reload();
 });
 
-$('#weekend-pass').click(() => {
+// $('#weekend-pass').click(() => {
+//   paywall.showPaywall({
+//     asset: {
+//       assetId: 118586,
+//       preselectedFeeId: 137870
+//     }
+//   });
+// })
+
+
+$('#asset-btn').click(() => {
   paywall.showPaywall({
     asset: {
-      assetId: 118586,
-      preselectedFeeId: 137870
+      assetId: 122046
     }
   });
 })
-
 $('#season-pass').click(() => {
   paywall.showPaywall({
     asset: {
