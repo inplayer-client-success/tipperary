@@ -6,7 +6,8 @@ var config = {
     "111329",
     "114686",
     "117098",
-    "118587"
+    "118587",
+    "122090"
   ],
   item_id: getParameterByName('id'),
   service_url: "https://services.inplayer.com"
