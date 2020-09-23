@@ -7,7 +7,8 @@ var config = {
     "114686",
     "117098",
     "118587",
-    "122090"
+    "122090",
+    "124083"
   ],
   item_id: getParameterByName('id'),
   service_url: "https://services.inplayer.com"
@@ -26,23 +27,23 @@ paywall.on('logout', function () {
   location.reload();
 });
 
-// $('#weekend-pass').click(() => {
-//   paywall.showPaywall({
-//     asset: {
-//       assetId: 118586,
-//       preselectedFeeId: 137870
-//     }
-//   });
-// })
-
-
-$('#asset-btn').click(() => {
+$('#weekend-pass').click(() => {
   paywall.showPaywall({
     asset: {
-      assetId: 122046
+      assetId: 124080,
+      preselectedFeeId: 140835
     }
   });
 })
+
+
+// $('#asset-btn').click(() => {
+//   paywall.showPaywall({
+//     asset: {
+//       assetId: 122046
+//     }
+//   });
+// })
 $('#season-pass').click(() => {
   paywall.showPaywall({
     asset: {
